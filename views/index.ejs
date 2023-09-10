@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My university</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <section class="header">
+        <nav>
+            <a href="./index"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="far fa-window-close" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="./home">Home</a></li>
+                    <li><a href="#">Advice</a></li>
+                    <li><a href="./support">Support</a></li>
+                    <li><a href="./manage">manage</a></li>
+                    <li><a href="./register">Register</a></li>
+                    <li><a href="./login">Login</a></li>
+                    <li><a href="#">Profile</a></li>    
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="textbox">
+            <h1>Together We Heal</h1>
+            <p> Your Presence In The World Is Significant.<br> Your Story Matters You Matter.</p>
+
+            <a href="" class="hero-btn"> Visit us to know more</a>
+        </div>
+
+    </section>
+    <section class="facilities">
+        <h1> Our Facilities </h1>
+        <p>
+            Write about your facilities.
+        </p>
+
+        <div class="row">
+            <div class="col">
+                <img src="images/counselling.webp">
+                <h3>Counseling</h3>
+                <p> write about facility. </p>
+            </div>
+
+            <div class="col">
+                <img src="images/inspirinf.jpg">
+                <h3>Inspire </h3>
+                <p> write about facility. </p>
+            </div>
+
+            <div class="col">
+                <img src="images/motivation.webp">
+                <h3>Motivation</h3>
+                <p> write about facility. </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------Testimonials----------->
+    <section class="testimonials">
+        <h1> Words From Students </h1>
+        <p> inspirational stories </p>
+
+        <div class="row">
+            <div class="test-col">
+                <img src="images/motivation.webp">
+                <div>
+                    <p>
+                        write about stories
+
+                    </p>
+                    <h3>Student 1</h3>
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-o"></i>
+
+                </div>
+            </div>
+
+            <div class="test-col">
+                <img src="images/counselling.webp">
+                <div>
+                    <p>
+                        write about stories
+
+                    </p>
+                    <h3>Student 2</h3>
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-o"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!---Call To Action--->
+    <section class="cta">
+        <h1>Enroll For Various Courses</h1>
+        <a href="contact.html" class="hero-btn"> Contact Us </a>
+    </section>
+
+
+    <!---Footer--->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            write about your idea<br>write about you and your team members and the website.
+        </p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+
+        <p>Made With <i class="far fa-heart"></i> By Avalanche</p>
+
+    </section>
+
+
+    <!--Javascript for the toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+  </body>
+</html>
